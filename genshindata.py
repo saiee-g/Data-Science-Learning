@@ -9,7 +9,7 @@ Created on Wed Jan 24 09:38:36 2024
 import pandas as pd
 
 """storing genshin.csv in df1, name of dataset"""
-df1 = pd.read_csv(r'C:\Users\snowfox\Desktop\te2\dsbdal\archive\genshin.csv', encoding='latin-1')
+df1 = pd.read_csv('genshin.csv', encoding='latin-1')
 
 """print first 20 rows of dataset"""
 print(df1.head(20))
